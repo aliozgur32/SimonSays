@@ -53,6 +53,7 @@ int main() {
     //Closes file
     fclose(file);
 
+    //This part turn highscore into an integer
     highscoreInt = atoi(highscore);
 
 

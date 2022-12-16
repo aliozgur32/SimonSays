@@ -22,7 +22,7 @@ int main() {
 
     //Opens and reads file
     FILE *file;
-    file = fopen("C:\\Users\\admin\\Desktop\\simonSays\\highscore.txt","r");
+    file = fopen("highscore.txt","r");
     if (file != NULL){
         //Instantiates variables
         char c = ' ';
@@ -53,6 +53,7 @@ int main() {
     //Closes file
     fclose(file);
 
+    //This part turn highscore into an integer
     highscoreInt = atoi(highscore);
 
 
